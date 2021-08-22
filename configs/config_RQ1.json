@@ -1,0 +1,73 @@
+{
+	"sqlite": {
+		"executable_file_path": "/home/cobot/SCB/SemanticCrashBucketing/src/complete/sqlite/ground-truth/sqlite/.libs/lt-sqlite3",
+		"run_instruction": "__PROGRAM__ < __SEEDFILE__",
+		"input_directories": [
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/sqlite/ground-truth/afl-tmin/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/sqlite/ground-truth/bff-1/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/sqlite/ground-truth/bff-5/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/sqlite/ground-truth/hf/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/sqlite/ground-truth/hf-cov/all/raw"
+		]
+	},
+	"w3m": {
+		"executable_file_path": "/home/cobot/SCB/SemanticCrashBucketing/src/complete/w3m/ground-truth/w3m/w3m",
+		"run_instruction": "__PROGRAM__ -dump -T text/html __SEEDFILE__",
+		"input_directories": ["/home/cobot/SCB/SemanticCrashBucketing/src/complete/w3m/ground-truth/afl-tmin/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/w3m/ground-truth/bff-1/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/w3m/ground-truth/bff-5/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/w3m/ground-truth/hf/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/w3m/ground-truth/hf-cov/all/raw"
+		]
+	},
+	"libmad": {
+		"executable_file_path": "/home/cobot/SCB/SemanticCrashBucketing/src/complete/libmad/ground-truth/libmad-0.15.1b/.libs/minimad",
+		"run_instruction": "__PROGRAM__ __SEEDFILE__",
+		"input_directories": ["/home/cobot/SCB/SemanticCrashBucketing/src/complete/libmad/ground-truth/afl-tmin/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/libmad/ground-truth/bff-1/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/libmad/ground-truth/bff-5/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/libmad/ground-truth/hf/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/libmad/ground-truth/hf-cov/all/raw"
+		]
+	},
+	"conntrackd": {
+		"executable_file_path": "/home/cobot/SCB/SemanticCrashBucketing/src/complete/conntrackd/ground-truth/conntrack-tools-1.4.3/src/conntrackd",
+		"run_instruction": "__PROGRAM__ -C __SEEDFILE__",
+		"input_directories": ["/home/cobot/SCB/SemanticCrashBucketing/src/complete/conntrackd/ground-truth/afl-tmin/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/conntrackd/ground-truth/bff-1/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/conntrackd/ground-truth/bff-5/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/conntrackd/ground-truth/hf/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/conntrackd/ground-truth/hf-cov/all/raw"
+		]
+	},
+	"php-5.5.37": {
+		"executable_file_path": "/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-5.5.37/ground-truth/php/source/5.5.37/sapi/cli/php",
+		"run_instruction": "__PROGRAM__ /home/cobot/SCB/SemanticCrashBucketing/src/complete/php-5.5.37/ground-truth/driver.php -- __SEEDFILE__",
+		"input_directories": ["/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-5.5.37/ground-truth/afl-tmin/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-5.5.37/ground-truth/bff-1/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-5.5.37/ground-truth/bff-5/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-5.5.37/ground-truth/hf/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-5.5.37/ground-truth/hf-cov/all/raw"
+		]
+	},
+	"php-7.0.14": {
+		"executable_file_path": "/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-7.0.14/ground-truth/php/source/7.0.14/sapi/cli/php",
+		"run_instruction": "__PROGRAM__ __SEEDFILE__",
+		"input_directories": ["/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-7.0.14/ground-truth/afl-tmin/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-7.0.14/ground-truth/bff-1/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-7.0.14/ground-truth/bff-5/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-7.0.14/ground-truth/hf/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/php-7.0.14/ground-truth/hf-cov/all/raw"
+		]
+	},
+	"R": {
+		"executable_file_path": "/home/cobot/SCB/SemanticCrashBucketing/src/complete/R/ground-truth/R-3.3.2/bin/exec/R",
+		"run_instruction": "__PROGRAM__ --no-restore --slave --file=/home/cobot/SCB/SemanticCrashBucketing/src/complete/R/ground-truth/driver.r --args __SEEDFILE__",
+		"input_directories": ["/home/cobot/SCB/SemanticCrashBucketing/src/complete/R/ground-truth/afl-tmin/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/R/ground-truth/bff-1/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/R/ground-truth/bff-5/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/R/ground-truth/hf/all/raw",
+			"/home/cobot/SCB/SemanticCrashBucketing/src/complete/R/ground-truth/hf-cov/all/raw"
+		]
+	}
+}
