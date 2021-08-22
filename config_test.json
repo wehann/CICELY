@@ -1,0 +1,10 @@
+{
+	"sqlite": {
+		"executable_file_path": "/home/cobot/SCB/SemanticCrashBucketing/src/complete/sqlite/ground-truth/sqlite/.libs/lt-sqlite3",
+		"run_instruction": "__PROGRAM__ < __SEEDFILE__",
+		"input_directories": [
+			"E:\\VMwareShare\\sqlite\\ground-truth\\afl-tmin\\all\\raw",
+			"E:\\VMwareShare\\sqlite\\ground-truth\\afl-tmin\\all\\raw"
+		]
+	}
+}
