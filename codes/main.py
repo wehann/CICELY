@@ -3,7 +3,7 @@ import start
 import os
 
 
-json_file = '..' + os.path.sep + 'configs' + os.path.sep + 'config_RQ2.json'
+json_file = '..' + os.path.sep + 'configs' + os.path.sep + 'configs.json'
 work_folder = '..' + os.path.sep + 'runtime'
 with open(json_file, 'r') as load_f:
     print('Reading json configs...')
