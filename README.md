@@ -46,3 +46,9 @@ git clone https://github.com/wehann/Crash_Inputs_Classification
 * Semantic Crash Bucketing: https://github.com/squaresLab/SemanticCrashBucketing
 * Honggfuzz:  https://github.com/google/Honggfuzz
 * CERT BFF: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=507974
+
+## 论文中的RQ1与RQ2的项目下载地址
+* RQ1：
+（包含于SemanticCrashBucketing的开源项目，https://github.com/squaresLab/SemanticCrashBucketing 中）
+
+* RQ2:
