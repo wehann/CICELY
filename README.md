@@ -49,6 +49,11 @@ git clone https://github.com/wehann/Crash_Inputs_Classification
 
 ## 论文中的RQ1与RQ2的项目下载地址
 * RQ1：
-（包含于SemanticCrashBucketing的开源项目，https://github.com/squaresLab/SemanticCrashBucketing 中）
 
-* RQ2:
+  https://disk.pku.edu.cn:443/link/0AA2CD9431CCC7147F024DA64FF9FF19（包含于SemanticCrashBucketing的开源项目，https://github.com/squaresLab/SemanticCrashBucketing 中）
+
+* RQ2: 
+
+  项目：https://disk.pku.edu.cn:443/link/692792E7EB9EFF0B8F829CB1909E9BBA
+
+  测试输入：https://disk.pku.edu.cn:443/link/2617AA2D9D79C1D393A7356A54B4AF27
