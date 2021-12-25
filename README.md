@@ -6,7 +6,7 @@ A crash inputs classification algorithm combined with dynamic link library infor
 
 ## 描述
 
-* 本工具是论文《一种结合动态链接库信息的崩溃输入分类方法》的开源项目，包括实验源码、涉及工具及论文中实验的结果。
+* 本工具是论文《一种结合动态链接库信息的崩溃输入分类方法》的开源项目，包括实验源码、涉及工具及论文中的实验项目。
 * 本工具的实验环境和实验结果所对应的环境为Ubuntu 14.04, Python 3.4。经测试，本工具在系统Ubuntu 16.04、Ubuntu 18.04中均可使用。
 
 ## 使用说明
