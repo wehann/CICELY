@@ -1,6 +1,6 @@
-# 一种结合动态链接库信息的崩溃输入分类方法
+# 一种结合动态链接库信息的崩溃输入分类方法：CICELY
 
-A crash inputs classification algorithm combined with dynamic link library information
+A crash inputs classification algorithm combined with dynamic link library information: CICELY
 
 
 
